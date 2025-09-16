@@ -4,7 +4,7 @@
 Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating **visual reasoning and grounding abilities** in VLMs.
 
 <p align="center">
-  <img src="MAIA.flow-2.png" alt="MAIA Logo" width="50%"/>
+  <img src="media/MAIA.flow-2.png" alt="MAIA Logo" width="50%"/>
 </p>
 
 
