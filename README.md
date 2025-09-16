@@ -24,7 +24,7 @@ Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating 
 
 ## 📦 What’s inside?  
 
-- **Videos**: short clips (~30 sec) providing rich multimodal context.  
+- **Videos**: 100 short clips (~30 sec) providing rich multimodal context.  
 - **Questions & Answers pairs**: 2,400 Italian questions, each with 8 human-provided answers (19,200 Answers).
 - **True and False Statements pairs**: 19,200 True-False Statements pairs
 - **Tasks**:  
