@@ -12,10 +12,11 @@ Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating 
 
 ## ✨ What is MAIA?  
  
-- **A dataset** of carefully curated **video-based linguistic data**, fully in Italian.  
-- **A suite of tasks** that challenge models not only to describe, but also to *reason, discriminate, and ground language in visual context*.
-- **An evaluation tool** designed to bridge and compare two core abilities of VLMs:  
-  **understanding** (grounding visual input in language) and **generation** (producing coherent, context-aware output).
+- A **dataset** of carefully curated **video-based linguistic data**, fully in Italian.  
+- A **suite of tasks** that challenge models not only to describe, but also to *reason, discriminate, and ground language in visual context*.
+- An **evaluation tool** designed to bridge and compare two core abilities of VLMs:  
+  1. **Understanding** (grounding visual input in language)
+  2. **Generation** (producing coherent, context-aware output).
     
 
 ---
