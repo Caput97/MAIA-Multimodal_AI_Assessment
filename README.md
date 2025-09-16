@@ -70,8 +70,13 @@ If you use **MAIA**, please cite the relevant work(s):
     address = "Cagliari, Italy",
     publisher = "CEUR Workshop Proceedings",
 }
-
+```
 
 ### 🧪 MAIA Benchmark & Experiments:
 
+```bibtex
+% MAIA Benchmark
+
 mettere cit.
+
+```
