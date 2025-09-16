@@ -1,6 +1,6 @@
-# MAIA: Multimodal AI Assessment
 <h1 align="center">MAIA: Multimodal Abilities in Italian Assessment</h1>
 <p align="center"><em>“Can AI truly understand what it sees and hears – even in Italian?”</em></p>
+
 Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating **visual reasoning and grounding abilities** in VLMs.
 
 
