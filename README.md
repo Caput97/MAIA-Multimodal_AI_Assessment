@@ -1,4 +1,4 @@
-# MAIA-Multimodal_AI_Assessment
+# MAIA: Multimodal AI Assessment
 Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating **visual reasoning and grounding abilities** in VLMs.
 
 ---
