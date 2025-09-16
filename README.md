@@ -51,6 +51,9 @@ MAIA is:
 If you use **MAIA**, please cite the relevant work(s):  
 
 ### 📊 MAIA Dataset:
+
+```bibtex
+% MAIA Dataset
 @inproceedings{testa-etal-2025-MAIA,
     title = "MAIA: A Benchmark for Multimodal AI Assessment",
     author = "Testa, Davide  and
@@ -67,6 +70,7 @@ If you use **MAIA**, please cite the relevant work(s):
     address = "Cagliari, Italy",
     publisher = "CEUR Workshop Proceedings",
 }
+
 
 ### 🧪 MAIA Benchmark & Experiments:
 
