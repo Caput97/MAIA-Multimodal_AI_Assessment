@@ -17,6 +17,7 @@ Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating 
 - An **evaluation tool** designed to bridge and compare two core abilities of VLMs:  
   1. **Understanding** (grounding visual input in language)
   2. **Generation** (producing coherent, context-aware output).
+- A **framework** for assessing consistency and robusteness of VLMs within and across tasks
     
 
 ---
