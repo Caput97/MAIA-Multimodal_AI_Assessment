@@ -45,3 +45,29 @@ MAIA is:
 - **Video-based**, not just static images, capturing richer real-world scenarios.  
 
 ---
+
+## 📚 Citation  
+
+If you use **MAIA**, please cite the relevant work(s):  
+
+### 📊 MAIA Dataset:
+@inproceedings{testa-etal-2025-MAIA,
+    title = "MAIA: A Benchmark for Multimodal AI Assessment",
+    author = "Testa, Davide  and
+      Bonetta, Giovanni  and
+      Bernardi, Raffaella  and
+      Bondielli, Alessandro and Lenci, Alessandro and Miaschi, Alessio and Passaro, Lucia and Magnini, Bernardo",
+    editor = "Bosco, Cristina  and
+      Ježek, Elisabetta  and
+      Polignano, Marco  and
+      Sanguinetti, Manuela",
+    booktitle = "Proceedings of the 11th Italian Conference on Computational Linguistics (CLiC-it 2025)",
+    month = sept,
+    year = "2025",
+    address = "Cagliari, Italy",
+    publisher = "CEUR Workshop Proceedings",
+}
+
+### 🧪 MAIA Benchmark & Experiments:
+
+mettere cit.
