@@ -85,6 +85,13 @@ If you use **MAIA**, please cite the relevant work(s):
 ```bibtex
 % MAIA Benchmark
 
-mettere cit.
+@inproceedings{
+testa2025allinone,
+title={All-in-one: Understanding and Generation in Multimodal Reasoning with the {MAIA} Benchmark},
+author={Davide Testa and Giovanni Bonetta and Raffaella Bernardi and Alessandro Bondielli and Alessandro Lenci and Alessio Miaschi and Lucia Passaro and Bernardo Magnini},
+booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+year={2025},
+url={https://openreview.net/forum?id=luhwjd4WVC}
+}
 
 ```
