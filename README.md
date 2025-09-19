@@ -49,7 +49,8 @@ MAIA is:
 
 For reasons of **evaluation integrity** — we aim to prevent the dataset from being incorporated into the training of new multimodal models, which would compromise its effectiveness as a benchmarking tool — we are releasing **20% of the dataset** here as a public example.  
 
-Researchers and practitioners who are interested in using the **full dataset** for evaluation purposes are welcome to contact us directly. We will be glad to provide access upon request 🙂  
+Researchers and practitioners who are interested in using the **full dataset** for evaluation purposes are welcome to contact us directly. We will be glad to provide access upon request 🙂
+Contact: dtesta@fbk.eu
 
 ---
 
