@@ -45,12 +45,49 @@ MAIA is:
 - **Video-based**, not just static images, capturing richer real-world scenarios.  
 
 ---
-## 📤 Release  
 
-For reasons of **evaluation integrity** — we aim to prevent the dataset from being incorporated into the training of new multimodal models, which would compromise its effectiveness as a benchmarking tool — we are releasing **20% of the dataset** here as a public example.  
+## 🧠 Usage: Evaluating Models
 
-Researchers and practitioners who are interested in using the **full dataset** for evaluation purposes are welcome to contact us directly. We will be glad to provide access upon request 🙂
-Contact: dtesta@fbk.eu
+The main entry point for running evaluations on the MAIA benchmark is the `eval_model.py` script.
+
+### 🔧 Requirements
+
+Make sure you have installed all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🚀 Running an Evaluation
+
+You can evaluate the supported Vision-Language Model (VLM) using:
+
+```bash
+python eval_model.py --model MODEL_NAME --dataset-config SPLIT-NAME ["gen","mc"]
+```
+
+example command to run InternVL on 50 queries from the generation task
+```bash
+python eval_model.py --model OpenGVLab/InternVL3-8B --videos-dir ./Videos --out-json maia_gen_internvl3_answers.json --num-frames 12 --batch-size 4 --max-new-tokens 128 --limit 50 --dataset-config gen
+```
+
+### 🧪 Evaluating MC predictions
+
+After running the MC task with `eval_model.py`, you’ll have a JSONL file with one result per line.  
+Use the scoring script to compute overall accuracy and per-category metrics:
+
+```bash
+python compute_mc_scores.py path/to/your_mc_predictions.jsonl
+```
+
+### 🧪 Evaluating GEN predictions
+
+After running the GEN task with `eval_model.py`, you’ll have a JSONL file with one result per line.  
+Use the scoring script to compute the generative metrics:
+
+```bash
+python compute_gen_scores_aggregated.py path/to/your_gen_predictions.jsonl
+```
 
 ---
 
