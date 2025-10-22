@@ -66,9 +66,14 @@ You can evaluate the supported Vision-Language Model (VLM) using:
 python eval_model.py --model MODEL_NAME --dataset-config SPLIT-NAME ["gen","mc"]
 ```
 
-example command to run InternVL on 50 queries from the generation task
+example command to run InternVL on the generation task for all videos. --limit 50 to run on the first 50 samples for debug.  
 ```bash
 python eval_model.py --model OpenGVLab/InternVL3-8B --videos-dir ./Videos --out-dir maia_gen_internvl3_answers --num-frames 12 --batch-size 4 --max-new-tokens 128 --limit 50 --dataset-config gen
+```
+
+example command to run InternVL on the generation task on a specific video like the black.mp4. --limit 50 to run on the first 50 samples for debug).
+```bash
+python eval_model.py --model OpenGVLab/InternVL3-8B --videos-dir ./black.mp4 --out-json maia_gen_internvl3_answers.json --num-frames 12 --batch-size 4 --max-new-tokens 128 --limit 50 --dataset-config gen
 ```
 
 ### 🧪 Evaluating MC predictions
