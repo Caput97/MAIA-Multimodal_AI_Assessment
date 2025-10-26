@@ -85,7 +85,7 @@ Use the scoring script to compute overall accuracy and per-category metrics:
 python compute_mc_scores.py path/to/results.jsonl
 ```
 
-### 🧪 Evaluating GEN predictions (standard)
+### 🧪 Evaluating GEN predictions (standard approach)
 
 After running the GEN task with `eval_model.py`, you’ll have a JSONL file with one result per line.  
 Use the scoring script to compute the standard generative metrics (ROUGE, BertScore, BLEU etc.):
@@ -94,9 +94,9 @@ Use the scoring script to compute the standard generative metrics (ROUGE, BertSc
 python compute_gen_scores_aggregated.py path/to/results.jsonl
 ```
 
-### 🧪 Evaluating GEN predictions (LLM-as-a-judge)
+### 🧪 Evaluating GEN predictions (LLM-as-a-judge approach)
 
-Use the LLM-as-a-judge evaluation script to automatically score model generations with a large language model acting as the judge.
+Use the LLM-as-a-judge evaluation script to automatically assess model generations with a large language model acting as the judge.
 
 ```bash
 python compute_llm-as-a-judge.py path/to/results.jsonl --outdir path/to/output_dir --model-name MODEL_NAME
