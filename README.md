@@ -88,10 +88,23 @@ python compute_mc_scores.py path/to/results.jsonl
 ### 🧪 Evaluating GEN predictions
 
 After running the GEN task with `eval_model.py`, you’ll have a JSONL file with one result per line.  
-Use the scoring script to compute the generative metrics:
+Use the scoring script to compute the standard generative metrics (ROUGE, BertScore, BLEU etc.):
 
 ```bash
 python compute_gen_scores_aggregated.py path/to/results.jsonl
+```
+
+Use the LLM-as-a-judge evaluation script to automatically score model generations with a large language model acting as the judge.
+
+```bash
+python compute_llm-as-a-judge.py path/to/results.jsonl --outdir path/to/output_dir --model-name MODEL_NAME
+```
+
+example command to run gpt-4o mini as a judge for evaluating results of a VLM on the generation task.
+
+```bash
+python compute_llm-as-a-judge.py vlm_results.jsonl --outdir llm_judge_out --model-name gpt-4o-mini
+
 ```
 
 ---
