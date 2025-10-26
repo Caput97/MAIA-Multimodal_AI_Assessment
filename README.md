@@ -33,7 +33,7 @@ Welcome to **MAIA**, the first Italian-native benchmark designed for evaluating 
 
 ---
 
-## 🚀 Why MAIA?  
+## 🔥 Why MAIA?  
 
 Most benchmarks are:  
 - **Task-oriented** (focused on performance in one predefined task).  
@@ -96,7 +96,7 @@ python compute_gen_scores_aggregated.py path/to/results.jsonl
 
 ### 🧪 Evaluating GEN predictions (LLM-as-a-judge approach)
 
-Use the LLM-as-a-judge evaluation script to automatically assess model generations with a large language model acting as the judge.
+Use the LLM-as-a-judge evaluation script to automatically assess model generations with a large language model acting as the judge 🕵️.
 
 ```bash
 python compute_llm-as-a-judge.py path/to/results.jsonl --outdir path/to/output_dir --model-name MODEL_NAME
