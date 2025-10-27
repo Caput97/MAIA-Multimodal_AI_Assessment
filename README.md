@@ -46,6 +46,20 @@ MAIA is:
 
 ---
 
+## 📂 Dataset Availability
+The MAIA dataset is publicly available on [Hugging Face](https://huggingface.co/datasets/giobin/MAIA).
+You can explore, download, or load it directly using the Hugging Face datasets library:
+
+```bash
+
+from datasets import load_dataset
+
+dataset = load_dataset("giobin/MAIA")
+
+```
+
+---
+
 ## 🧠 Usage: Evaluating Models
 
 The main entry point for running evaluations on the MAIA benchmark is the `eval_model.py` script.
@@ -108,7 +122,6 @@ example command to run gpt-4o mini as a judge for evaluating results of a VLM on
 python compute_llm-as-a-judge.py vlm_results.jsonl --outdir llm_judge_out --model-name gpt-4o-mini
 
 ```
-
 ---
 
 ## 📚 Citation  
