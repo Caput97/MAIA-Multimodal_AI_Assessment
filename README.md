@@ -64,9 +64,9 @@ dataset_task2 = load_dataset("caput/MAIA", "gen")
 
 If needed, we also provide pre-split (train/test) versions of the dataset in multiple languages:
 
-- 🇮🇹 Italian: [caput/MAIA_ita](https://huggingface.co/datasets/caput/MAIA_ita)
-- 🇪🇸 Spanish: [caput/MAIA_spa](https://huggingface.co/datasets/caput/MAIA_spa)
-- 🇬🇧 English: [caput/MAIA_eng](https://huggingface.co/datasets/caput/MAIA_eng)
+- 🇮🇹 Italian: [MAIA_ita](https://huggingface.co/datasets/caput/MAIA_ita)
+- 🇪🇸 Spanish: [MAIA_spa](https://huggingface.co/datasets/caput/MAIA_spa)
+- 🇬🇧 English: [MAIA_eng](https://huggingface.co/datasets/caput/MAIA_eng)
 
 These versions are ready to use and already organized into train and test splits.
 
