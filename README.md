@@ -47,14 +47,16 @@ MAIA is:
 ---
 
 ## 📂 Dataset Availability
-The MAIA dataset is publicly available on [Hugging Face](https://huggingface.co/datasets/giobin/MAIA).
+The MAIA dataset is publicly available on [Hugging Face](https://huggingface.co/datasets/caput/MAIA).
 You can explore, download, or load it directly using the Hugging Face datasets library:
 
 ```bash
 
 from datasets import load_dataset
 
-dataset = load_dataset("giobin/MAIA")
+
+dataset_task1 = load_dataset("caput/MAIA", "mc")
+dataset_task2 = load_dataset("caput/MAIA", "gen")
 
 ```
 
